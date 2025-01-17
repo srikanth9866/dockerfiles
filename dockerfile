@@ -15,3 +15,28 @@ EXPOSE 8080
 # Set the entry point to run Jenkins directly
 ENTRYPOINT ["java", "-jar", "/usr/share/jenkins/jenkins.war"]
 }
+
+
+[
+history
+    1  pwd
+    2  cd /root/
+    3  pwd
+    4  cd /.jenkins/
+    5  ls
+    6  ls -la
+    7  cd .jenkins/
+    8  ls
+    9  cd secrets
+   10  ls
+   11  cat initialAdminPassword
+   12  pwd
+   13  history
+[ docker pull srikanth0370/batch14:Jenkins
+   39  docker images
+   40  docker run -d -p 8080:8080 --name jenkins10 027759d8da82
+   41  docker ps -a
+   42  docker exec -it 3042b142c70f bash
+]
+
+]
